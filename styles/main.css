@@ -1,0 +1,26 @@
+.card {
+  width:99%;
+  background-color: #efefef;
+  margin: 0 0 1% 1%;
+}
+
+
+
+.card img {
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+
+  .card {
+    float: left;
+    width: 49%;
+  }
+
+}
+
+@media screen and (min-width: 900px) {
+  .card {
+    width: 32%;
+  }
+}
